@@ -37,7 +37,7 @@ jobs:
       uses: actions/setup-java@v5
       with:
         java-version: ${{ matrix.java }}
-        distribution: zulu
+        distribution: temurin
         architecture: s390x
 
     - name: Build
