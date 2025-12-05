@@ -38,6 +38,7 @@ jobs:
       with:
         java-version: ${{ matrix.java }}
         distribution: zulu
+        architecture: s390x
 
     - name: Build
       run: |
